@@ -4,6 +4,7 @@
     background-color:darksalmon;
     box-shadow: 0px 0px 5px 3px;
     padding: 5px;
+    background-image: url('./../images/nagpur.jpg');
 }
 
 .welcome
