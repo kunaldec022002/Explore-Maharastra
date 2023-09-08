@@ -16,6 +16,7 @@
     margin: 5px;
     text-decoration: none;
     margin-right: 15px;
+    border-radius: 5px;
     color: black;
     padding: 4px;
     margin-top: 20px;
@@ -27,6 +28,7 @@
  .nav-btn:hover{
     box-shadow: 1px 1px 5px 1px black;
     transition: 0.5s;
+    height: 22px;
     
  }
  .nav-img{

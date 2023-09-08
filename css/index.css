@@ -5,6 +5,13 @@ body
     background-size: 1537px 700px;
 }
 
+
+
+
+
+   
+ 
+
  .nav-bar
 {
     background-color: none;
@@ -112,14 +119,7 @@ body
     box-shadow: 1px 3px 8px 3px black;
 }
 
-.Explore-Maharastra
-{
-   text-align: center;
-   margin-top: 150px;
-   font-size: 70px;
-   color:black;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 .footer
 {
    margin-top: -80px;
