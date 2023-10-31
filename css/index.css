@@ -23,6 +23,27 @@ li a
    height: 650px;
 }
 
+/* Mumbai section */
+
+
+.mumbai-head
+{
+   text-align: center;
+   font-size: 30px;
+   font-family: cursive;
+}
+ .mumbai-img
+ {
+   margin: 10px;
+   width: 700px;
+   height: 400px;
+ }
+ .m-para
+ {
+   padding: 10px;
+   margin: 10px;
+ }
+
 /*Hill Station*/
 
 .hill-station
