@@ -57,11 +57,12 @@
                 display:flex;
                 justify-content: space-evenly;
                 flex-direction: row;
+              
             }
             .member{
                 display:inline-block;
                 padding:20px;
-                height:380px;
+                height:430px;
                 width:225px;
                 border-radius: 5px;
                 margin-bottom: 30px;
@@ -117,18 +118,54 @@
                 width: 50px;
             }
         </style>
+
+<link rel="stylesheet" href="../css/index.css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/place.css">
+  
     </head>
     <body>
-        <div class="nav-bar">
-            <h1 style= "margin-right: px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Explore-Maharastra</h1>
-            <img src="../Images/flight.png" class="nav-img"/>
-            <a href="../index.html" target="_blank" class="nav-btn">HOME</a>
-            <a href="./places.html"  class="nav-btn">PLACES</a>
-            <a href="./hotel.html"  class="nav-btn">HOTEL</a>
-            <a href="./images.html"  class="nav-btn">IMAGES</a>
-            <a href="./aboutus.html" target="_blank"  class="nav-btn">ABOUT US</a>
-            <a href="./contact.html"  class="nav-btn">CONTACT US</a>
-        </div>
+       
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Explore-Maharastra</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/images.html">Images</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/places.html">Places</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/aboutus.html">About Us</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/contact.html">Contact Us</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
         <div class="ourteam">
             <p>Our Team</p>
         </div>
@@ -138,7 +175,7 @@
                 <img src="../Images/Kunal Ingle.jpg" class="img-profile"/>
                 <p class="name">Kunal Ingle</p>
                 <img src="../Images/linkedin.png" class="img-linkedin"/>
-                <a href="" class="l">KunalIngle</a>
+                <a href="" class="l">Kunal Ingle</a>
                 
             </div>
             <div class="member">
@@ -161,12 +198,16 @@
             </div>
         </div>
         <div class="cont-team">
+
             <div class="member">
-                <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-profile"/>
-                <p class="name">Arya Gundu</p>
+                <img src="../Images/Lokesh Manapure.jpg" class="img-profile"/>
+                <p class="name">Lokesh Manapure</p>
                 <img src="../Images/linkedin.png" class="img-linkedin"/>
-                <a href="" class="l">Arya Gundu</a>
+                <a href="https://www.linkedin.com/in/lokesh-manapure-a35929232/" class="l">Lokesh Manapure</a>
+                
             </div>
+           
+
             <div class="member">
                 <img src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?auto=compress&cs=tinysrgb&w=600" class="img-profile"/>
                 <p class="name">Pooja</p>
@@ -186,16 +227,8 @@
                 <a href="https://www.linkedin.com/in/kshiteej-parkale-95a481255/" class="l">Kshiteej Parakale</a>
             </div>
         </div>
-        <div class="cont-team">
-           
-            <div class="member">
-                <img src="../Images/Lokesh Manapure.jpg" class="img-profile"/>
-                <p class="name">Lokesh Manapure</p>
-                <img src="../Images/linkedin.png" class="img-linkedin"/>
-                <a href="https://www.linkedin.com/in/lokesh-manapure-a35929232/" class="l">Lokesh Manapure</a>
-                
-            </div>
-        </div>
+        
+        <br/><br/><br/><br/><br/><br/>
         
         <div class="foot">
             <p class="foot-name">Explore-Maharastra</p><img src="../Images/flight.png" class="foot-img"/>

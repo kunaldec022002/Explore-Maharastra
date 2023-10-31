@@ -42,7 +42,7 @@
     background-size: cover;
     background-color:darksalmon;
     box-shadow: 0px 0px 5px 3px;
-    padding: 5px;
+    padding: 20px;
 }
 
 .welcome
@@ -66,13 +66,16 @@ body
 
 .Places
 {
-    display: flex;
+    display:block;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 50px;
 }
 .placechild{
-    text-align: center;
+
+        text-align: center;
+        display: inline-block;
+        margin: 50px;
 }
 
 

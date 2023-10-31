@@ -25,7 +25,7 @@
         display: flex;
         margin-left: 270px;
         margin-top: 100px;
-        height: 300px;
+        height: px;
         font-style: oblique;
         text-align: center;
         
@@ -40,6 +40,7 @@
       .page{
         background: linear-gradient(to top right, #ccffff 0%, #ffcccc 100%);
        background-size: 1500px 650px;
+       padding: 5px;
       }
 
       .gmail{
@@ -49,30 +50,40 @@
       
       }
 
+   
+
       .button
       {
         display: block;
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
-        font-size: 30px;
+        font-size: 20px;
         background-color: #3399ff;
         border-radius: 5px;
         color: black;
+        text-decoration: none;
             
       }
       .button:hover
       {
-        cursor: progress;
-        font-size: 32px;
+        cursor: pointer;
+        font-size: 21px;
         
+      }
+
+      .input-text
+      {
+        font-size: 20px;
+        border-radius: 5px;
+        border: 2px solid black;
+        margin-top: 50px;
       }
 
       .submit-btn
       {
         border-radius: 3px;
-        padding: 3px;
-        width: 70px;
+        font-size: 14px;
       }
 
       
