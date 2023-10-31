@@ -91,70 +91,18 @@ li a
 
 /* footer section*/
 
-.container-footer
-{
-   
-   padding: 10px;
-   border-radius: 5px;
-}
-footer {
-  background-color: #f4f4f4;
-  border-top: 1px solid #e5e5e5;
-  color: #000000;
-  padding: 30px 0;
-}
-
-footer h3 {
-  color: #000000;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-footer p {
-  line-height: 1.5;
-
-}
-
-#qlink
-{
-   margin-left: 20px;
-}
-
-.footer-link
-{
-   margin-left: 50px;
+.footer-main {
+   display:flex;
+   justify-content: space-evenly;
+   background-color:goldenrod ;
    color: black;
-   text-decoration: none;
-   font-size: 20px;
+  
+   padding: 20px;
 }
 
-#footer-sumbit-btn
-{
-   margin-left: 0px;
-   border-radius: 5px;
-   width: 100px;
-   
+@media (max-width: 600px) {
+   .footer-about, .footer-services, .footer-contact, .footer-follow {
+       width: 100%;
+       margin-bottom: 20px;
+   }
 }
-
-#footer-sumbit-btn:hover
-{
-   cursor: pointer;
-   background-color:aquamarine;
-}
-
-.footer-input-text
-{
-   border-radius: 5px;
-   border: 2px solid black;
-}
-
-#footer-img
-{
-   height: 170px;
-   width: 200px;
-   margin-left: 20px;
-   border-radius: 5px;
-   box-shadow: 2px 3px 5px 3px black;
-   margin-bottom: 5px;
-}
-
