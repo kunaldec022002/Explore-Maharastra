@@ -95,4 +95,23 @@
         box-shadow: 3px 1px 5px 3px black;
       }
 
+      /* footer*/
+
+      .footer-main {
+        display:flex;
+        justify-content: space-evenly;
+        background-color:goldenrod ;
+        color: black;
+        flex-wrap: wrap;
+       
+        padding: 20px;
+     }
+     
+     @media (max-width: 600px) {
+        .footer-about, .footer-services, .footer-contact, .footer-follow {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+     }
+
       

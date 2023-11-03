@@ -96,17 +96,18 @@ body{
 }
 
 
-.foot{
-    background-color: rgb(215, 203, 154);
-    text-align: center;
 
+
+.social-icons img
+{
+   border-radius: 10px;
+   box-shadow: 1px 3px 5px 3px black;
+   width: 80px;
+   margin: 5px;
+    transition: 0.5s;
 }
-.foot-name{
-    font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    font-weight: bold;
-}
-.foot-img{    
-    height: 40px;
-    width: 50px;
+
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
 }
